@@ -16,5 +16,11 @@
     "courseSlug": "exa-for-developers-beginner",
     "description": "A short, beginner-friendly explainer course on Exa. Each lesson builds intuition for one idea — what it is, why it exists, and when you'd use it — in plain language, sequenced so each concept builds on the last.",
     "path": "exa-for-developers-beginner/"
+  },
+  {
+    "courseName": "Tavily for Developers",
+    "courseSlug": "tavily-for-developers-beginner",
+    "description": "A short, beginner-friendly explainer course on Tavily. Each lesson builds intuition for one idea — what it is, why it exists, and when you'd use it — in plain language, sequenced so each concept builds on the last.",
+    "path": "tavily-for-developers-beginner/"
   }
 ]
