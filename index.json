@@ -2,13 +2,13 @@
   {
     "courseName": "Exa: A Beginner's Guide to Search API",
     "courseSlug": "exa-a-beginner-s-guide-to-search-api-beginner",
-    "description": "A short, beginner-friendly explainer course on Exa. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem.",
+    "description": "Exa is a search engine built for AI agents, not humans. Learn how highlights help AI skim results, how MCP lets your AI call Exa directly, and how the Search and Contents APIs return clean, ready-to-use answers and web content.",
     "path": "exa-a-beginner-s-guide-to-search-api-beginner/"
   },
   {
     "courseName": "Tavily: Live Web Answers for Builders",
     "courseSlug": "tavily-live-web-answers-for-builders-beginner",
-    "description": "A short, beginner-friendly explainer course on Tavily. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
+    "description": "Tavily helps AI agents search and crawl the live web. Learn to map sites, track usage and credits, tell search from research, handle async jobs and rate limits, call Tavily from Python, and get fast, sourced answers to everyday questions.",
     "path": "tavily-live-web-answers-for-builders-beginner/"
   }
 ]
