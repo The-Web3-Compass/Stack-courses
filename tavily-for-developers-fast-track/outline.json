@@ -1,0 +1,55 @@
+{
+  "courseName": "Tavily for Developers (Fast-Track)",
+  "courseSlug": "tavily-for-developers-fast-track",
+  "description": "A short, beginner-friendly explainer course on Tavily. It starts with what the technology is, why it exists, and the problem it solves, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
+  "lessonCount": 9,
+  "techId": "38d2c43e-a471-4f8a-83ba-4a7124880a38",
+  "persona": "fast-track",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "The API Key",
+      "file": "lesson-01.md"
+    },
+    {
+      "id": 2,
+      "title": "Tavily Extract",
+      "file": "lesson-02.md"
+    },
+    {
+      "id": 3,
+      "title": "Extraction Results",
+      "file": "lesson-03.md"
+    },
+    {
+      "id": 4,
+      "title": "The Request ID",
+      "file": "lesson-04.md"
+    },
+    {
+      "id": 5,
+      "title": "Search Depth: Matching Effort to the Question",
+      "file": "lesson-05.md"
+    },
+    {
+      "id": 6,
+      "title": "Tavily for Haystack Pipelines",
+      "file": "lesson-06.md"
+    },
+    {
+      "id": 7,
+      "title": "Map: Discovering Site Structure Before You Crawl",
+      "file": "lesson-07.md"
+    },
+    {
+      "id": 8,
+      "title": "Query Routing: Matching the Question to the Right Tool",
+      "file": "lesson-08.md"
+    },
+    {
+      "id": 9,
+      "title": "Searching Your Own Data and the Web Together",
+      "file": "lesson-09.md"
+    }
+  ]
+}
