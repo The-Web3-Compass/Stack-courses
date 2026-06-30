@@ -1,0 +1,55 @@
+{
+  "courseName": "Tavily: Live Web Answers for Builders",
+  "courseSlug": "tavily-live-web-answers-for-builders-beginner",
+  "description": "A short, beginner-friendly explainer course on Tavily. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
+  "lessonCount": 9,
+  "techId": "38d2c43e-a471-4f8a-83ba-4a7124880a38",
+  "persona": "beginner",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "How AI Finds Its Way Around a Website",
+      "file": "lesson-01.md"
+    },
+    {
+      "id": 2,
+      "title": "How to Map a Website Without Opening a Hundred Tabs",
+      "file": "lesson-02.md"
+    },
+    {
+      "id": 3,
+      "title": "How do you know how much you're actually using?",
+      "file": "lesson-03.md"
+    },
+    {
+      "id": 4,
+      "title": "The Difference Between Searching and Researching",
+      "file": "lesson-04.md"
+    },
+    {
+      "id": 5,
+      "title": "Why Long Research Jobs Don't Have to Go Silent",
+      "file": "lesson-05.md"
+    },
+    {
+      "id": 6,
+      "title": "Why the API Says No to Your First Request",
+      "file": "lesson-06.md"
+    },
+    {
+      "id": 7,
+      "title": "A Simpler Way to Call Tavily from Python",
+      "file": "lesson-07.md"
+    },
+    {
+      "id": 8,
+      "title": "How do you stop a crawl from eating all your credits?",
+      "file": "lesson-08.md"
+    },
+    {
+      "id": 9,
+      "title": "The Fast Way to Answer Everyday Questions",
+      "file": "lesson-09.md"
+    }
+  ]
+}
