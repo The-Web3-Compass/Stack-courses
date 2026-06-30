@@ -28,5 +28,11 @@
     "courseSlug": "tavily-for-developers-fast-track",
     "description": "A short, beginner-friendly explainer course on Tavily. It starts with what the technology is, why it exists, and the problem it solves, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
     "path": "tavily-for-developers-fast-track/"
+  },
+  {
+    "courseName": "Exa: A Beginner's Guide to Search API",
+    "courseSlug": "exa-a-beginner-s-guide-to-search-api-beginner",
+    "description": "A short, beginner-friendly explainer course on Exa. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
+    "path": "exa-a-beginner-s-guide-to-search-api-beginner/"
   }
 ]

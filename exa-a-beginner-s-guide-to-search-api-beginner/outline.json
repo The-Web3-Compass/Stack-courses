@@ -1,0 +1,35 @@
+{
+  "courseName": "Exa: A Beginner's Guide to Search API",
+  "courseSlug": "exa-a-beginner-s-guide-to-search-api-beginner",
+  "description": "A short, beginner-friendly explainer course on Exa. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
+  "lessonCount": 5,
+  "techId": "40c9626b-0440-4775-be3b-80c0365adcd4",
+  "persona": "beginner",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Exa: The Search Engine Built for AI Agents",
+      "file": "lesson-01.md"
+    },
+    {
+      "id": 2,
+      "title": "Highlights: Reading Only What You Came For",
+      "file": "lesson-02.md"
+    },
+    {
+      "id": 3,
+      "title": "MCP: Giving Your AI a Direct Line to Exa",
+      "file": "lesson-03.md"
+    },
+    {
+      "id": 4,
+      "title": "Search API: Letting Your Code Ask the Web Questions",
+      "file": "lesson-04.md"
+    },
+    {
+      "id": 5,
+      "title": "Contents API: Reading the Web Without the Mess",
+      "file": "lesson-05.md"
+    }
+  ]
+}
