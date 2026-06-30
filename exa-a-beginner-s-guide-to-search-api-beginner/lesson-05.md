@@ -1,57 +1,56 @@
-# Contents API: Reading the Web Without the Mess
+# Contents API: Reading the Web Without the Clutter
 
-You’re halfway through a research task. Your search returned a dozen links that look perfect. You open the first one. A cookie banner slides down. A newsletter pop-up blocks the text. You close three auto-playing videos just to find the two paragraphs you actually need. By the fourth tab, you are fighting the web page instead of learning from it.
+## The morning standup problem
 
-This is the moment the Contents API was built for.
+Your team lead messages you at nine forty-five. She needs a summary of three competitor announcements by the ten o'clock meeting. You found the exact press releases yesterday using Exa Search, and the URLs sit in your notes. But now you have fifteen minutes. Opening each link means waiting for hero banners to load, dismissing cookie consent screens, and scrolling past video autoplay. You need the actual words, not the website experience. Copying text by hand would leave you with broken formatting and missing sentences. There has to be a cleaner way to turn those links into facts.
 
-## Why this exists
+This is the exact moment the Contents API was built for.
 
-Finding a web page and reading it are two different jobs. Search gives you the address. It tells you where the information lives. But the modern web wraps that information in layers of clutter. Navigation bars, advertisements, comment sections, and background code slow everything down. If you are building an app, that raw page code is nearly unusable. You do not want to write software that digs through hidden instructions just to pull out a clean sentence.
+## What it actually is
 
-Without a dedicated tool, your choices are tedious. You can open every link by hand. You can try to extract the text yourself with custom code, which breaks whenever a site redesigns its layout. Or you can settle for search snippets, which are often too short to be useful. The gap is simple. You have the web addresses, also called URLs, but you do not have the knowledge inside them.
+The Contents API is an Exa endpoint you reach through a call like exa.getContents() or a simple POST /contents request. Its job is straightforward. You send it a list of URLs you already have. It fetches the pages, removes the noise, and returns the actual content in a clean format.
 
-The Contents API closes that gap. An API is simply a way for one program to ask another program for data. In this case, it is Exa’s way of fetching the actual content from specific URLs and returning it in a clean, ready-to-use format.
+Think of it as hiring a meticulous assistant to visit specific articles for you. The assistant walks past the billboards, navigation menus, and newsletter popups. They copy down the article text and note the title, author, and publish date. You get back a tidy package while the original page stays as cluttered as ever.
 
-## Understanding the idea
-
-Think of the Contents API as a research librarian who runs to the shelf, pulls the exact books you asked for, and removes every sticker, bookmark, and margin note before handing them over. You give it a list of URLs. It visits each page, extracts the meaningful text, and strips away the surrounding noise. You do not receive buttons, banners, or menus. You receive the article, the post, or the story itself.
-
-You access it by asking Exa to read the pages for you. You pass in the addresses you care about. The service visits each one and hands back the text. You can ask for the full text of the page if you want deep context. Or you can ask for just the highlights, which are the key excerpts most relevant to your topic. The core idea never changes. You point at addresses. The tool brings back readable content.
+You can ask for the content in different amounts depending on your goal. Text mode delivers the full page as clean markdown, useful when you need complete context. Highlights mode pulls out the most relevant passages, which saves time when you only need key facts and want a shorter read. Summary mode generates a brief abstract of the entire page, ideal for quickly deciding if a long article is worth your attention. You simply pick the form that matches the job at hand.
 
 
 <InlineQuiz
   id="quiz-s2-l5-contents-api-purpose"
-  question="What is the core job of the Contents API?"
-  options='["To discover new web pages that match a topic you describe.","To visit URLs you already have and return their clean text without clutter.","To combine many sources into a single synthesized answer.","To find pages that are similar to one URL you already like."]'
+  question="You have a list of URLs and need the actual information from those pages. Why does the Contents API exist?"
+  options='["To find new web pages when you do not know where to look","To turn URLs you already have into clean readable text","To merge several articles into one combined summary","To remove clutter from the original websites permanently"]'
   correct="1"
-  explanation="The Contents API is a reading tool, not a discovery tool. You give it specific web addresses and it fetches the article text while stripping away ads, banners, and code. Option A describes search, option C describes the Answer tool, and option D describes the Similar tool. The key mental model is that the Contents API closes the gap between having a URL and actually reading what is inside it."
+  explanation="The Contents API is built for the moment when you already know where to look and simply need the text without the noise. It fetches the pages you specify and returns the content in a clean format. It does not search for new pages, combine multiple sources into a single report, or change the original websites. Search handles discovery, while Contents handles reading."
   courseSlug="exa-a-beginner-s-guide-to-search-api-beginner"
-  lessonSlug="05-contents-api-reading-the-web-without-the-mess"
+  lessonSlug="05-contents-api-reading-the-web-without-the-clutter"
 />
 
 ## A simple example
 
-Imagine you are planning a family trip to Japan. Earlier in this course, you learned how to search Exa for travel blogs about Tokyo with kids. Now you have ten URLs. You do not want to read ten entire blogs cover to cover. You just want the practical tips about subway passes, kid-friendly neighborhoods, and rainy-day activities.
+Picture a student writing a paper on renewable energy. Earlier in the week they used Exa Search to collect five articles about offshore wind. Now they need direct quotes and hard data to support their argument.
 
-You send those ten URLs to the Contents API. You ask it to pull out the parts that mention "traveling with children." A few seconds later, you receive a neat bundle of excerpts. Each one is a clean paragraph pulled straight from the original posts. There are no sidebars about hotel ads. No comment sections. Just the sentences that matter to your trip.
-
-If you were building a travel helper app, you could feed those same excerpts straight into a writing assistant to draft a personalized itinerary. The Contents API turned a pile of links into a pile of useful facts.
+They send those five URLs to the Contents API and ask for Highlights. Back comes a list of key excerpts from each source. One passage notes a new turbine capacity record. Another quotes an engineer about winter maintenance costs. A third article is a forty-page industry whitepaper. The student does not want to read forty pages blindly, so they request a Summary for that URL. The abstract tells them the paper focuses on grid integration, which is not relevant. They skip it. For the two most promising articles, they request full Text. Within minutes they have clean, readable documents to cite, without ever battling a paywall or comment section.
 
 ## How to think about it
 
-The Contents API is the reading step that follows the finding step. Search and similar tools show you where to look. The Contents API actually looks and reports back what it saw. Whenever you have a specific set of URLs and need the substance inside them, this is the tool to reach for. It transforms addresses into knowledge.
+The Contents API is the second half of the research loop. Search finds the needles in the haystack. This tool lets you hold the needles without the hay. You use it whenever you already know where to look and simply need what is written there.
 
-## Bringing it all together
+In practice, you will almost always see it paired with search results. You search, you collect URLs, and you immediately feed those addresses into the Contents API to make them readable. Where Search answers the question "what is out there," Contents answers "what does it actually say." That distinction keeps your workflow focused. You are not browsing the web. You are extracting knowledge from it.
 
-Over the last five lessons, you have walked through the core of Exa’s research toolkit. You started with search, learning how to discover pages that match an idea. You explored finding similar pages to wander from one good source to related ones. You saw how Answer can synthesize information and reason across sources for you. And now you have seen how the Contents API fetches the clean text from any address you choose, turning the messy web into readable material.
-
-Taken together, these pieces form a complete workflow. You can find information, explore connections, read the details, and reason about what you found. Whether you are automating research for an app or just trying to stay sane while reading the internet, the mental model is the same. First you locate the doors. Then you walk through them. The Contents API is what lets you walk through without tripping over the clutter.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFA726','primaryTextColor':'#111111','primaryBorderColor':'#111111','lineColor':'#111111','secondaryColor':'#FFF3E0','secondaryTextColor':'#111111','secondaryBorderColor':'#111111','tertiaryColor':'#FFFFFF','tertiaryTextColor':'#111111','tertiaryBorderColor':'#111111','fontFamily':'Inter, ui-sans-serif, system-ui, sans-serif','fontSize':'14px'}}}%%
 flowchart LR
-    Search --> Similar
-    Similar --> ContentsAPI[Contents API]
-    ContentsAPI --> Answer
+    A[Exa Search] -->|finds| B[URLs]
+    B -->|feeds| C[Contents API]
+    C -->|returns| D[Clean text]
 ```
-*Figure: Exa's four tools form a continuous workflow from finding pages to reading them cleanly to reasoning across them.*
+*Figure: The research loop: Exa Search finds the URLs, then Contents API turns them into clean, readable text.*
+
+## Bringing it all together
+
+Across these five lessons, the full picture has built itself piece by piece. You started with the idea that Exa searches the web by understanding meaning rather than just matching keywords. You learned how it finds pages that truly fit your intent, even when your words are imprecise. You explored how results are ranked and filtered so the best candidates rise to the top. Now you have seen how to read those candidates without touching the mess of the modern web.
+
+That is the complete arc. First Exa finds what matters in the noise. Then it hands you the content in a form you can actually use. Search and content work as two halves of the same habit. You locate the right doors, and then you walk through them cleanly.
+
+With both in hand, the sprawling, chaotic web becomes a library you can navigate with confidence. You are no longer clicking and hoping. You are asking, finding, and reading with purpose. That is what Exa makes possible.

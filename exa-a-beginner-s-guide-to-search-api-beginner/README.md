@@ -4,14 +4,10 @@ _beginner track · 5 short lessons_
 
 A short, beginner-friendly explainer course on Exa. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.
 
-## Start Here
-
-[Welcome to Exa: Search Built for Your AI Applications](./00-welcome-to-exa-search-built-for-your-ai-applications.md)
-
 ## Lessons
 
-1. **[Exa: The Search Engine Built for AI Agents](./01-exa-the-search-engine-built-for-ai-agents.md)**
-2. **[Highlights: Reading Only What You Came For](./02-highlights-reading-only-what-you-came-for.md)**
-3. **[MCP: Giving Your AI a Direct Line to Exa](./03-mcp-giving-your-ai-a-direct-line-to-exa.md)**
-4. **[Search API: Letting Your Code Ask the Web Questions](./04-search-api-letting-your-code-ask-the-web-questions.md)**
-5. **[Contents API: Reading the Web Without the Mess](./05-contents-api-reading-the-web-without-the-mess.md)**
+1. **[Exa: A Search Engine Built for AI, Not Humans](./01-exa-a-search-engine-built-for-ai-not-humans.md)**
+2. **[Highlights: Teaching Your AI to Skim](./02-highlights-teaching-your-ai-to-skim.md)**
+3. **[MCP: The Reason Your AI Can Ask Exa for Help](./03-mcp-the-reason-your-ai-can-ask-exa-for-help.md)**
+4. **[The Search API: Your App's Direct Line to Answers](./04-the-search-api-your-app-s-direct-line-to-answers.md)**
+5. **[Contents API: Reading the Web Without the Clutter](./05-contents-api-reading-the-web-without-the-clutter.md)**

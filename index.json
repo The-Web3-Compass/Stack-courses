@@ -1,44 +1,8 @@
 [
   {
-    "courseName": "Claude for Developers",
-    "courseSlug": "claude-for-developers-beginner",
-    "description": "A short, beginner-friendly explainer course on Claude. Each lesson builds intuition for one idea — what it is, why it exists, and when you'd use it — in plain language, sequenced so each concept builds on the last.",
-    "path": "claude-for-developers-beginner/"
-  },
-  {
-    "courseName": "Claude for Developers",
-    "courseSlug": "claude-for-developers-beginner-v2",
-    "description": "A short, beginner-friendly explainer course on Claude. Each lesson builds intuition for one idea — what it is, why it exists, and when you'd use it — in plain language, sequenced so each concept builds on the last.",
-    "path": "claude-for-developers-beginner-v2/"
-  },
-  {
-    "courseName": "Exa for Developers",
-    "courseSlug": "exa-for-developers-beginner",
-    "description": "A short, beginner-friendly explainer course on Exa. Each lesson builds intuition for one idea — what it is, why it exists, and when you'd use it — in plain language, sequenced so each concept builds on the last.",
-    "path": "exa-for-developers-beginner/"
-  },
-  {
-    "courseName": "Tavily for Developers",
-    "courseSlug": "tavily-for-developers-beginner",
-    "description": "A short, beginner-friendly explainer course on Tavily. Each lesson builds intuition for one idea — what it is, why it exists, and when you'd use it — in plain language, sequenced so each concept builds on the last.",
-    "path": "tavily-for-developers-beginner/"
-  },
-  {
-    "courseName": "Tavily for Developers (Fast-Track)",
-    "courseSlug": "tavily-for-developers-fast-track",
-    "description": "A short, beginner-friendly explainer course on Tavily. It starts with what the technology is, why it exists, and the problem it solves, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
-    "path": "tavily-for-developers-fast-track/"
-  },
-  {
     "courseName": "Exa: A Beginner's Guide to Search API",
     "courseSlug": "exa-a-beginner-s-guide-to-search-api-beginner",
     "description": "A short, beginner-friendly explainer course on Exa. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
     "path": "exa-a-beginner-s-guide-to-search-api-beginner/"
-  },
-  {
-    "courseName": "Exa: A Beginner's Guide to Search API",
-    "courseSlug": "exa-a-beginner-s-guide-to-search-api-beginner-v2",
-    "description": "A short, beginner-friendly explainer course on Exa. It starts with what the technology is, why it exists, who it is for, and where it fits in the modern developer ecosystem, then moves from mental models to practical usage and implementation. Each lesson builds on the last in plain language.",
-    "path": "exa-a-beginner-s-guide-to-search-api-beginner-v2/"
   }
 ]
