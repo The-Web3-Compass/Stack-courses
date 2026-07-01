@@ -1,0 +1,55 @@
+{
+  "courseName": "Suno: A Beginner's Guide to prompt",
+  "courseSlug": "suno-a-beginner-s-guide-to-prompt-beginner",
+  "description": "A beginner-friendly course on Suno, covering Vocal Separation, Timestamped Lyrics, Audio Processing, music style. Moves from mental models to practical usage. Capstone: understanding Music Video Generation.",
+  "lessonCount": 9,
+  "techId": "9ab24f2f-cb7f-4cfe-9848-2dccc17a0b7e",
+  "persona": "beginner",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What Is Suno and Why Would You Use It?",
+      "file": "lesson-01.md"
+    },
+    {
+      "id": 2,
+      "title": "How to Tell AI What Style of Music to Make",
+      "file": "lesson-02.md"
+    },
+    {
+      "id": 3,
+      "title": "Can you pull a finished song apart?",
+      "file": "lesson-03.md"
+    },
+    {
+      "id": 4,
+      "title": "Giving Your AI Track a Name That Sticks",
+      "file": "lesson-04.md"
+    },
+    {
+      "id": 5,
+      "title": "The Sentence That Starts Every Music Request",
+      "file": "lesson-05.md"
+    },
+    {
+      "id": 6,
+      "title": "Making Your AI Music Move at the Right Speed",
+      "file": "lesson-06.md"
+    },
+    {
+      "id": 7,
+      "title": "Why Suno Makes You Sing a Secret Sentence",
+      "file": "lesson-07.md"
+    },
+    {
+      "id": 8,
+      "title": "How do you track a song that isn't finished yet?",
+      "file": "lesson-08.md"
+    },
+    {
+      "id": 9,
+      "title": "When the Singer Sounds Like You",
+      "file": "lesson-09.md"
+    }
+  ]
+}

@@ -10,5 +10,11 @@
     "courseSlug": "tavily-live-web-answers-for-builders-beginner",
     "description": "Tavily helps AI agents search and crawl the live web. Learn to map sites, track usage and credits, tell search from research, handle async jobs and rate limits, call Tavily from Python, and get fast, sourced answers to everyday questions.",
     "path": "tavily-live-web-answers-for-builders-beginner/"
+  },
+  {
+    "courseName": "Suno: A Beginner's Guide to prompt",
+    "courseSlug": "suno-a-beginner-s-guide-to-prompt-beginner",
+    "description": "A beginner-friendly course on Suno, covering Vocal Separation, Timestamped Lyrics, Audio Processing, music style. Moves from mental models to practical usage. Capstone: understanding Music Video Generation.",
+    "path": "suno-a-beginner-s-guide-to-prompt-beginner/"
   }
 ]
